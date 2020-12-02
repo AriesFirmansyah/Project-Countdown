@@ -1,0 +1,30 @@
+.main {
+  text-align: center;
+  color: red;
+  background-color: black;
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  width: 100%;
+  height: auto;
+
+}
+.input{
+  border-radius: 6px;
+  background-color: aliceblue;
+  display: flex;
+  flex: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.span{
+  padding-bottom: 70px;
+}
+h1 {
+  font-size: 35px;
+}
+.inline{
+  display: inline-block;
+}
