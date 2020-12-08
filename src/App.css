@@ -1,29 +1,51 @@
 .main {
   text-align: center;
-  color: red;
-  background-color: black;
-  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  color:black;
+  background-color: aliceblue;
   width: 100%;
   height: auto;
+  font-weight: 900;
 
 }
-.input{
-  border-radius: 6px;
-  background-color: aliceblue;
-  display: flex;
-  flex: column;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  font-size: 30px;
-  font-weight: bold;
-  color: black;
-}
-.span{
-  padding-bottom: 70px;
+img {
+  width: 70px;
+  margin-bottom: -10px;
 }
 h1 {
   font-size: 35px;
+}
+h1, h2{
+  font-weight: 850;
+}
+.card1 {
+  background-color:black;
+  width: 150px;
+  height: auto;
+  color: aliceblue;
+  border-radius: 2em;
+  margin: 2px;
+}
+.card1 h1{
+  font-size: 20pt;
+}
+.card1 p{
+  font-size: 40pt;
+  margin: -10px;
+  margin-left: -10px;
+  margin-top: 1px;
+}
+.g1 , .g2{
+  width: 50px;
+  margin-top: 10px;
+}
+.g2{
+  width: 50px;
+  margin-left: 10px;
+
+}
+.g1:hover, .g2:hover {
+  transform: scale(1.04);
+  transition: 0.2s;
 }
 .inline{
   display: inline-block;
