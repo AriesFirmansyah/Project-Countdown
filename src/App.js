@@ -21,6 +21,7 @@ var detik1 = 0
 var detik2 = 0
 var selesai = false
 var selesai1 = true
+var test = null
 
 const useStyles = makeStyles({
   btn: {
